@@ -1,0 +1,19 @@
+{
+	"name": "redux-typescript",
+	"version": "1.0.0",
+	"description": "basic redux in typescript",
+	"main": "index.js",
+	"scripts": {
+		"start": "./node_modules/.bin/ts-node app.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Aleix Riba",
+	"license": "ISC",
+	"dependencies": {
+		"redux": "^4.0.5"
+	},
+	"devDependencies": {
+		"ts-node": "^8.9.1",
+		"typescript": "^3.8.3"
+	}
+}
